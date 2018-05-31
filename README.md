@@ -1,1 +1,2 @@
 merged file.
+tag added.
