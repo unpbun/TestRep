@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2024-07-05T02:57:46.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="J9vjYc_pJnO0GmsDWNn8" version="24.5.2" type="github">
+  <diagram name="第 1 页" id="YKHXXlT_N5-KAXW08Aum">
+    <mxGraphModel dx="2245" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="dFbrZ00dyLEqgvyohcg5-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-2" value="募集户处理" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-8" target="dFbrZ00dyLEqgvyohcg5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-8" value="上海深圳港股通&lt;div&gt;备付金与预付款&lt;div&gt;一同结息到托管户&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="115" y="650" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-11" target="dFbrZ00dyLEqgvyohcg5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-23" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dFbrZ00dyLEqgvyohcg5-15">
+          <mxGeometry x="-0.45" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-11" target="dFbrZ00dyLEqgvyohcg5-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-29" value="未设置计息账户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dFbrZ00dyLEqgvyohcg5-25">
+          <mxGeometry x="-0.0537" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-11" value="此产品&lt;div&gt;是否有计息&lt;div&gt;设置&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="540" width="75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-2" target="dFbrZ00dyLEqgvyohcg5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-18" target="dFbrZ00dyLEqgvyohcg5-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-22" value="取不到设置数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dFbrZ00dyLEqgvyohcg5-21">
+          <mxGeometry x="0.05" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-18" target="dFbrZ00dyLEqgvyohcg5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-18" value="&lt;div&gt;产品&lt;/div&gt;账户计息设置集取一条" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="165" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-28" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-30" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="775" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-33" target="dFbrZ00dyLEqgvyohcg5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-33" value="节假日&lt;div&gt;&amp;amp;计息方法13&amp;amp;券商普通&lt;div&gt;账户 虚拟一个12的计息设置&lt;/div&gt;&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="860" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-35" target="dFbrZ00dyLEqgvyohcg5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-38" value="不在有效期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dFbrZ00dyLEqgvyohcg5-37">
+          <mxGeometry x="-0.0923" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-35" target="dFbrZ00dyLEqgvyohcg5-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-35" value="做账日期是否在计息设置有效性期" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="990" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-43" target="dFbrZ00dyLEqgvyohcg5-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-47" value="等于0，先结息后计息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dFbrZ00dyLEqgvyohcg5-46">
+          <mxGeometry x="-0.2571" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dFbrZ00dyLEqgvyohcg5-43" target="dFbrZ00dyLEqgvyohcg5-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-51" value="大于0，先计息后结息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dFbrZ00dyLEqgvyohcg5-50">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-43" value="记账日期是否大于0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1110" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-45" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dFbrZ00dyLEqgvyohcg5-49" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
