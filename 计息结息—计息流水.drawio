@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T12:06:03.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2lnD6K4KohyOSBOgJnmu" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T12:17:34.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="k6qM_E9KgzTtfAp4ExDU" version="24.6.4" type="github">
   <diagram name="第 1 页" id="YKHXXlT_N5-KAXW08Aum">
     <mxGraphModel dx="5956" dy="1301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -712,9 +712,6 @@
         </mxCell>
         <mxCell id="Rgw_-a4VITJV4P8Ag3na-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="95" y="640" width="20" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Rgw_-a4VITJV4P8Ag3na-3" value="1.阿斯顿发射点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="648" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
