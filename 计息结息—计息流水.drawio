@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T02:57:55.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="y6SGbSDXOaraA2asVnS-" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T03:20:49.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tu1t8q0IKnUYPCHySlui" version="24.6.4" type="github">
   <diagram name="第 1 页" id="YKHXXlT_N5-KAXW08Aum">
     <mxGraphModel dx="4129" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,14 +402,37 @@
         <mxCell id="oY2aQdnXXppiMISPrPVw-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-160" y="1420" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oY2aQdnXXppiMISPrPVw-24" value="当备付金或保证金账户结息流水&lt;div&gt;凭证日期为节假日，则下一个交&lt;/div&gt;&lt;div&gt;易日时需要将节假日结息到备付&lt;/div&gt;&lt;div&gt;金或保证金账户的结息金额转到&lt;/div&gt;&lt;div&gt;托管户，此时备付金或保证金账&lt;/div&gt;&lt;div&gt;户计息基数需要减去结息金额&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oY2aQdnXXppiMISPrPVw-24" value="当备付金或保证金账户结息流水&lt;div&gt;凭证日期为节假日，则下一个交&lt;/div&gt;&lt;div&gt;易日时需要将节假日结息到备付&lt;/div&gt;&lt;div&gt;金或保证金账户的结息金额转到&lt;/div&gt;&lt;div&gt;托管户，备付金或保证金账&lt;span style=&quot;background-color: initial;&quot;&gt;户计&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;息基数减去结息金额&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="23.75" y="1408" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-25" target="oY2aQdnXXppiMISPrPVw-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oY2aQdnXXppiMISPrPVw-25" value="&lt;div&gt;1.下一个交易日是做账日的手工结息流水；&lt;/div&gt;&lt;div&gt;2.accountid等于设置的账户ID;&lt;/div&gt;3.&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;i_settle_price减去&lt;/span&gt;结息流水的结息金额；" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="206.25" y="1408" width="130" height="104" as="geometry" />
         </mxCell>
         <mxCell id="oY2aQdnXXppiMISPrPVw-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="191.25" y="1418" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-27" target="oY2aQdnXXppiMISPrPVw-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-33" value="5002——4~6,16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oY2aQdnXXppiMISPrPVw-32">
+          <mxGeometry x="-0.025" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-27" value="&lt;div&gt;1.结算备付金手工结息流水(_BetweenToday)&lt;/div&gt;&lt;div&gt;2.凭证日期不等于下个交易日;&lt;/div&gt;3.&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;i_settle_price加上&lt;/span&gt;结息流水的结息金额；" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="206.25" y="1592" width="130" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-29" value="当备付金或保证金账户结息流水&lt;div&gt;凭证日期为节假日，则凭证日期&lt;/div&gt;&lt;div&gt;当天结息金额会到账到备付金或&lt;/div&gt;&lt;div&gt;保证金账户，此时计息基数需要&lt;/div&gt;&lt;div&gt;加上结息金额&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="21.25" y="1599" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="1604" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-31" value="&lt;div&gt;1.结算备付金手工结息流水(_BetweenToday)&lt;/div&gt;&lt;div&gt;2.凭证日期不等于下个交易日;&lt;/div&gt;3.&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;i_settle_price加上&lt;/span&gt;结息流水的结息金额；" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="206.25" y="1776" width="130" height="104" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
