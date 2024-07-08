@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T08:26:10.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1fUYwBHQMvhdpxKIHjwA" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T09:13:57.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="49T3qKVWX3O_TfH4udaX" version="24.6.4" type="github">
   <diagram name="第 1 页" id="YKHXXlT_N5-KAXW08Aum">
-    <mxGraphModel dx="3849" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5956" dy="1301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,7 +115,7 @@
           <mxGeometry x="-947" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dFbrZ00dyLEqgvyohcg5-49" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="1020" y="1249" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="epx687CUHxSDBbEXInvg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="epx687CUHxSDBbEXInvg-7" target="epx687CUHxSDBbEXInvg-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -597,11 +597,112 @@
         <mxCell id="oY2aQdnXXppiMISPrPVw-91" value="&lt;div&gt;1.不是募集户；&lt;br&gt;&lt;/div&gt;2.且当天手工结息&lt;div&gt;流水没数据，findFlag == 0；&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3" y="2437" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-102" target="oY2aQdnXXppiMISPrPVw-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-150" y="2720" />
+              <mxPoint x="-150" y="2720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oY2aQdnXXppiMISPrPVw-92" value="1.拷贝账户计息设置；&lt;div&gt;2.账户子类型4~6映射为1~3；16-&amp;gt;17;&lt;/div&gt;&lt;div&gt;3.&lt;b&gt;结息处理&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
           <mxGeometry x="88.75" y="2630" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oY2aQdnXXppiMISPrPVw-97" value="&lt;div&gt;1.是募集户；&lt;br&gt;&lt;/div&gt;2.且当天手工结息&lt;div&gt;流水没数据，findFlag == 0；&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="502.13" y="2437" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-102" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="2700" width="1850" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-104" value="&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;若当天“非预提”手工流水&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;有数据，T+0跳过当天计息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;【不处理】&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-615" y="2863" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-107" target="oY2aQdnXXppiMISPrPVw-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-109" value="当天手工录入计息流水找到数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oY2aQdnXXppiMISPrPVw-108">
+          <mxGeometry x="0.6405" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-107" target="oY2aQdnXXppiMISPrPVw-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151.25" y="2780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-113" value="&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;1.当账户设置为5002——4~6,16&lt;/span&gt;&lt;div style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;匹配计息流水5002——1~3，17&lt;br&gt;&lt;div&gt;2.最低备付金计息模式为1或2&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oY2aQdnXXppiMISPrPVw-111">
+          <mxGeometry x="-0.1143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-107" target="oY2aQdnXXppiMISPrPVw-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-116" value="未找到手工计息流水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oY2aQdnXXppiMISPrPVw-115">
+          <mxGeometry x="-0.1566" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-107" value="判断是否计息处理" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="2760" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-110" value="对于上海结算备付金、深圳结算备付金、北京结算备付金、北交所结算备付金账户，当账户计息设置中，计息模式选择1：最低备付金单独计息、单独结息 或2：最低备付金单独计息、合并结息时，增加以下处理&lt;div&gt;&lt;b style=&quot;font-size: 11px; text-align: center; text-wrap: nowrap;&quot;&gt;【不处理】&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2861" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-114" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="2883" width="190" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-117" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px; text-wrap: nowrap;&quot;&gt;冻结保证金是否单独计&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px; text-wrap: nowrap;&quot;&gt;息标志-1:是&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px; text-wrap: nowrap;&quot;&gt;2.且5004&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;3.执行计息计算&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-287" y="2922" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-118" target="oY2aQdnXXppiMISPrPVw-123">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="3000" />
+              <mxPoint x="5" y="3000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-118" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;合并计息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;i_settle_price = i_settle_price + settleAmountLowTemp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-101.25" y="2923" width="281.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-119" value="5004" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2890" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-120" value="5002——4~6,16&lt;div&gt;&lt;span style=&quot;&quot;&gt;最低备付金计息模式为3&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2883" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-121" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="2895" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-122" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;//最低备付金是否单独计息-1:分开计息 分开结息&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CONST_INTEREST_MODE_1;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;//最低备付金是否单独计息-2:分开计息 合并结息&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CONST_INTEREST_MODE_2;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;//最低备付金是否单独计息-3:合并计息 合并结息&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CONST_INTEREST_MODE_3;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2785" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oY2aQdnXXppiMISPrPVw-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4" y="3210" />
+              <mxPoint x="-1200" y="3210" />
+              <mxPoint x="-1200" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-131" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;循环账户计息设置&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oY2aQdnXXppiMISPrPVw-130">
+          <mxGeometry x="0.5626" y="2" relative="1" as="geometry">
+            <mxPoint x="328" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-132" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;循环账户计息设置&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oY2aQdnXXppiMISPrPVw-130">
+          <mxGeometry x="-0.6409" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-123" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;根据计息方法和计息积数计息&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-76.25" y="3050" width="161.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oY2aQdnXXppiMISPrPVw-126" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="3160" width="2550" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
